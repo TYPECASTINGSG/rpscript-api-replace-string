@@ -14,9 +14,9 @@ export default class RPSReplaceString {
  * @example
  * ;Print 'hello yo world yo'
  * replace-content "hello hey world hey" "hey" "yo"
- * @param {string} content count or melody string.
- * @param {string} needle count or melody string.
- * @param {string} replacement count or melody string.
+ * @param {string} content Content to work on.
+ * @param {string} needle String to match.
+ * @param {string} replacement String to replace.
  * @param {number} fromIndex optional --fromIndex=5
  * @returns {void} 
  * @summary Replace string content
