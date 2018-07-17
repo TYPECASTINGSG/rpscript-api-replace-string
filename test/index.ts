@@ -13,6 +13,10 @@ m.describe('replace-string', () => {
 
     expect(output).to.be.equals('hello yo world yo');
 
+    output = await md.replaceString(new RpsContext,{fromIndex:10},"hello hey world hey", "hey","yo");
+
+    expect(output).to.be.equals('hello hey world yo');
+
   }).timeout(0);
 
 })

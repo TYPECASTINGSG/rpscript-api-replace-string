@@ -9,7 +9,7 @@ export default class RPSReplaceString {
 
   @rpsAction({verbName:'replace-content'})
   async replaceString (ctx:RpsContext,opts:Object, content:string,needle:string,replacement:string) : Promise<string>{
-    return replaceString(content,needle,replacement);
+    return replaceString(content,needle,replacement,opts);
   }
 
 }
